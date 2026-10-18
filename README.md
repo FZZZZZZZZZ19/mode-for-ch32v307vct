@@ -12,10 +12,10 @@
 ## 快速开始
 
 ```cmd
-git clone https://github.com/FZZZZZZZZZ19/CH32.git
+git clone https://github.com/FZZZZZZZZZ19/mode-for-ch32v307vct.git
 ```
 
-1. 用 **MounRiver Studio 2** 打开 `CH32` 目录（`File → Open Folder`）
+1. 用 **MounRiver Studio 2** 打开 `mode-for-ch32v307vct` 目录（`File → Open Folder`）
 2. `Project → Clean`
 3. `Project → Build`
 
@@ -64,7 +64,7 @@ int main(void)
 ## 目录结构
 
 ```
-CH32\
+mode-for-ch32v307vct\
 ├── User\                      应用层 —— 你的代码写在这里
 │   ├── main.c                 入口
 │   ├── zf_isr.c               逐飞中断服务函数（约 50 个 *_IRQHandler）
